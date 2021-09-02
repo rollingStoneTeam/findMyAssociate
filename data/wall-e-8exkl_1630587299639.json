@@ -1,0 +1,464 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "Hi, I'm a talent scout at Walmart!"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate.s3/kompose/1605682867162-image301.gif"
+							}
+						]
+					}
+				},
+				{
+					"message": "Thank you for expressing your interest in our company."
+				},
+				{
+					"message": "We would like to support you in preparation for same. Hope it's a good time."
+				}
+			],
+			"urlPatternList": [],
+			"category": "welcome_event",
+			"name": "Default Welcome Intent",
+			"trainingPhrases": []
+		},
+		{
+			"content": [
+				{
+					"message": "Totally agree!"
+				},
+				{
+					"message": "We strongly believe  in perpetuating a strong culture, starting with recruiting applicants and reinforcing the organisation's core values."
+				},
+				{
+					"message": "In your opinion what makes a good culture for a company?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Respect",
+								"action": {
+									"type": "quickReply",
+									"message": "Respect"
+								}
+							},
+							{
+								"name": "Service",
+								"action": {
+									"type": "quickReply",
+									"message": "Service"
+								}
+							},
+							{
+								"name": "Excellence",
+								"action": {
+									"type": "quickReply",
+									"message": "Excellence"
+								}
+							},
+							{
+								"name": "Integrity",
+								"action": {
+									"type": "quickReply",
+									"message": "Integrity"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Work Culture",
+			"trainingPhrases": [
+				"Work Culture",
+				"Culture"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Totally Agree!!"
+				},
+				{
+					"message": "We strongly believe  in perpetuating a strong culture, starting with recruiting applicants and reinforcing the organisation's core values."
+				},
+				{
+					"message": "In your opinion, how can a company be technological strong?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Embrace Upgrades",
+								"action": {
+									"type": "quickReply",
+									"message": "Embrace Upgrades"
+								}
+							},
+							{
+								"name": "Strong Coding Standards",
+								"action": {
+									"type": "quickReply",
+									"message": "Strong Coding Standards"
+								}
+							},
+							{
+								"name": "Training",
+								"action": {
+									"type": "quickReply",
+									"message": "Training"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Technology",
+			"trainingPhrases": [
+				"Technology",
+				"Technology Stack",
+				"New Technologies"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Totally Agree!"
+				},
+				{
+					"message": "We strongly believe  in perpetuating a strong culture, starting with recruiting applicants and reinforcing the organisation's core values."
+				},
+				{
+					"message": "What makes Walmart Business exciting?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Best Prices",
+								"action": {
+									"type": "quickReply",
+									"message": "Best Prices"
+								}
+							},
+							{
+								"name": "Global Coverage",
+								"action": {
+									"type": "quickReply",
+									"message": "Global Coverage"
+								}
+							},
+							{
+								"name": "Customer First",
+								"action": {
+									"type": "quickReply",
+									"message": "Customer First"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Business",
+			"trainingPhrases": [
+				"Business",
+				"eCommerce",
+				"Online Marketing",
+				"Stores"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Great ! So, Lets get started!!"
+				},
+				{
+					"message": "What interests you most about our company?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Work Culture",
+								"action": {
+									"type": "quickReply",
+									"message": "Work Culture"
+								}
+							},
+							{
+								"name": "Technology",
+								"action": {
+									"type": "quickReply",
+									"message": "Technology"
+								}
+							},
+							{
+								"name": "Business",
+								"action": {
+									"type": "quickReply",
+									"message": "Business"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Good Time",
+			"trainingPhrases": [
+				"Yes, its a good time!",
+				"Yes",
+				"Yes, please tell me",
+				"Yes. Thats great! What you need from me?"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Wow! This is"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate.s3/kompose/1630558742383-image380.jpeg"
+							}
+						]
+					}
+				},
+				{
+					"message": "In a matter of days, we'll start our process of interview."
+				},
+				{
+					"message": "As we believe in having a fair and quality discussion, we would like to know your preferences during rounds."
+				},
+				{
+					"message": "Can you please choose a format?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Face to Face",
+								"action": {
+									"type": "quickReply",
+									"message": "Face to Face"
+								}
+							},
+							{
+								"name": "Home Assignment",
+								"action": {
+									"type": "quickReply",
+									"message": "Home Assignment"
+								}
+							},
+							{
+								"name": "Other",
+								"action": {
+									"type": "quickReply",
+									"message": "Other"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Preference",
+			"trainingPhrases": [
+				"Best Prices",
+				"Global Coverage",
+				"Customer First",
+				"Respect",
+				"Service",
+				"Excellence",
+				"Integrity",
+				"Strong Coding Standards",
+				"Embrace Upgrades",
+				"Training"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Perfect! That helps!\n\nWhich topic category will you be comfortable in during discussion?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Business Use Cases",
+								"action": {
+									"type": "quickReply",
+									"message": "Business Use Cases"
+								}
+							},
+							{
+								"name": "Technical Coding",
+								"action": {
+									"type": "quickReply",
+									"message": "Technical Coding"
+								}
+							},
+							{
+								"name": "Real Life Problem Use Cases",
+								"action": {
+									"type": "quickReply",
+									"message": "Real Life Problem Use Cases"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Topic From Decided Formats",
+			"trainingPhrases": [
+				"Face to Face",
+				"Home Assignment",
+				"Other"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Thanks for sharing. We are taking notes!\n\nA couple of details more, please!"
+				},
+				{
+					"message": "What will be your date and time preferences?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "WeekDay (9am - 6pm)",
+								"action": {
+									"type": "quickReply",
+									"message": "WeekDay (9am - 6pm)"
+								}
+							},
+							{
+								"name": "Weekend (9am -11am)",
+								"action": {
+									"type": "quickReply",
+									"message": "Weekend (9am -11am)"
+								}
+							},
+							{
+								"name": "Other",
+								"action": {
+									"type": "quickReply",
+									"message": "Other"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Date And Time",
+			"trainingPhrases": [
+				"Business Use Cases",
+				"Technical Coding",
+				"Real Life Problem Use Cases"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Thank you so much for sharing your preferences."
+				},
+				{
+					"message": "We'll soon get back to you with a curated interview discussion slots."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate.s3/kompose/1630559746638-image366.jpeg"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "WeekDay (9am - 6pm)",
+			"trainingPhrases": [
+				"WeekDay (9am - 6pm)",
+				"Weekend (9am -11am)"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Awesome😍 We'll send confirmation to your email.\n\nHave a good day!"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Thank you",
+			"trainingPhrases": [
+				"Thank you",
+				"Thanks"
+			]
+		}
+	]
+}
